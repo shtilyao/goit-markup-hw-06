@@ -598,7 +598,7 @@ font-style: normal;
 .modal-form {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
 }
 
 .modal-input {
@@ -647,8 +647,7 @@ font-style: normal;
 .modal-input.comment-textarea {
     width: 100%;
     min-height: 120px;
-    padding-top: 8px;
-    padding-left: 16px;
+    padding: 8px 16px;
     resize: none;
 }
 
@@ -682,11 +681,11 @@ font-style: normal;
 .checkbox-wrapper {
     position: relative;
     display: flex;
+    margin-bottom: 16px;
 }
 
-.comment-lable,
-.checkbox-wrapper {
-    margin-bottom: 0;
+.comment-lable {
+    margin-bottom: 8px;
 }
 
 .check-mark {
