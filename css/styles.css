@@ -564,7 +564,6 @@ font-style: normal;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    border: none;
     position: absolute;
     top: 24px;
     right: 24px;
@@ -579,6 +578,10 @@ font-style: normal;
 .modal-close-button:hover,
 .modal-close-button:focus {
     background-color: #404bbf;
+}
+
+.modal-close-button:hover .modal-cross,
+.modal-close-button:focus .modal-cross {
     fill: #fff;
 }
 
@@ -646,6 +649,7 @@ font-style: normal;
     padding-top: 8px;
     padding-left: 16px;
     resize: none;
+    margin-bottom: 8px;
 }
 
 .comment-textarea::placeholder {
@@ -678,6 +682,7 @@ font-style: normal;
 .checkbox-wrapper {
     position: relative;
     display: flex;
+    margin-bottom: 24px;
 }
 
 .check-mark {
@@ -707,5 +712,4 @@ font-style: normal;
 
 .button.submit {
     min-width: 169px;
-    margin-top: 24px;
 }
