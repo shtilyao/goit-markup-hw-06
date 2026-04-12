@@ -598,7 +598,7 @@ font-style: normal;
 .modal-form {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
 }
 
 .modal-input {
@@ -672,10 +672,6 @@ font-style: normal;
     gap: 8px;
 }
 
-.comment-lable {
-    margin-bottom: 16px;
-}
-
 .policy-span {
     line-height: 1.33333;
     text-decoration: underline;
@@ -686,7 +682,11 @@ font-style: normal;
 .checkbox-wrapper {
     position: relative;
     display: flex;
-    margin-bottom: 24px;
+}
+
+.comment-lable,
+.checkbox-wrapper {
+    margin-bottom: 0;
 }
 
 .check-mark {
