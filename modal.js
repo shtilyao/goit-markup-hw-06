@@ -16,3 +16,15 @@
     refs.modal.classList.toggle("is-open");
   }
 })();
+
+const openBtn = document.querySelector(".mobile-menu-button");
+const menu = document.querySelector(".mobile-menu");
+const closeBtn = document.querySelector(".menu-close");
+
+openBtn.addEventListener("click", () => {
+  menu.classList.add("is-open");
+});
+
+closeBtn.addEventListener("click", () => {
+  menu.classList.remove("is-open");
+});
