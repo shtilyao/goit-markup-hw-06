@@ -301,7 +301,6 @@ img, svg {
 
 .team {
     background-color: #F4F4FD;
-    /* padding: 120px 0; */
     padding: 96px 0;
 }
 
@@ -440,7 +439,7 @@ img, svg {
 
 
 .footer-text {
-    min-width: 288px;
+    max-width: 264px;
     margin-top: 16px;
 }
 
@@ -1010,7 +1009,6 @@ img, svg {
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .link-address {
-        padding: 6px 0;
         font-size: 12px;
         letter-spacing: 0.04em;
         line-height: 1.14;
@@ -1018,6 +1016,7 @@ img, svg {
 
     .address-list {
         flex-direction: column;
+        gap: 12px;
     }
 
     .team .container {
@@ -1063,6 +1062,10 @@ img, svg {
         display: flex;
     }
 
+    .features-card-text {
+        font-weight: 400;
+    }
+
     .features-card-title {
         font-size: 20px;
         font-weight: 500;
@@ -1076,11 +1079,13 @@ img, svg {
         padding: 120px 0;
     }
 
-    
-
     .card-set-team {
         justify-content: center;
         gap: 24px;
+    }
+
+    .team {
+        padding: 120px 0;
     }
 
     .portfolio {
