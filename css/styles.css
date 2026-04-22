@@ -1011,7 +1011,8 @@ img, svg {
     .link-address {
         font-size: 12px;
         letter-spacing: 0.04em;
-        line-height: 1.14;
+        line-height: 1.17;
+        padding: 0;
     }
 
     .address-list {
@@ -1129,7 +1130,11 @@ img, svg {
     }
 
     .subscribe {
-        margin-left: 80px;
+        margin-left: auto;
+    }
+
+    .social-media-footer {
+        margin-right: 80px;
     }
 
     .subscribe-form {
