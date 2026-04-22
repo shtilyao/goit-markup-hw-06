@@ -214,7 +214,7 @@ img, svg {
 }
 
 .address {
-font-style: normal;
+    font-style: normal;
 }
 
 .mobile-menu-button {
@@ -878,6 +878,7 @@ font-style: normal;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    font-style: normal;
 }
 
 .menu-social-list {
@@ -909,7 +910,8 @@ font-style: normal;
         gap: 40px;
     }
 
-    .mobile-menu-button {
+    .mobile-menu-button,
+    .mobile-menu {
         display: none;
     }
 
@@ -945,7 +947,7 @@ font-style: normal;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 64px 24px;
-        /* justify-content: center; */
+        justify-content: center;
     }
 
     .card-set-portfolio {
@@ -975,6 +977,7 @@ font-style: normal;
 
     .subscribe-form {
         flex-direction: row;
+        gap: 24px;
     }
 
     .logo-text-footer,
@@ -1071,6 +1074,8 @@ font-style: normal;
         padding: 120px 0;
     }
 
+    
+
     .card-set-team {
         justify-content: center;
         gap: 24px;
@@ -1080,6 +1085,15 @@ font-style: normal;
         padding: 120px 0;
     }
 
+    .portfolio-card {
+        box-shadow: none;
+    }
+    
+    .portfolio-card:hover {
+        box-shadow: 0 2px 1px rgba(46, 47, 66, .08),
+            0 1px 1px rgba(46, 47, 66, .16),
+            0 1px 6px rgba(46, 47, 66, .08);
+    }
     .card-set-portfolio {
         flex-wrap: wrap;
         gap: 48px 24px;
