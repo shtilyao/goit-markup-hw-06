@@ -440,8 +440,14 @@ font-style: normal;
 .footer-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 72px;
+}
+
+.logo-text-footer,
+.social-media-footer,
+.subscribe {
+    margin: 0 auto;
 }
 
 .logo-text-footer {
@@ -832,7 +838,7 @@ font-style: normal;
     color: #2E2F42;
 }
 
-.mobile-link.current {
+.mobile-menu-link.current {
     color: #404BBF;
 }
 
@@ -879,7 +885,6 @@ font-style: normal;
     }
 
     .nav-list {
-        display: flex;
         gap: 40px;
     }
 
@@ -949,9 +954,11 @@ font-style: normal;
         flex-direction: row;
     }
 
+    .logo-text-footer,
+    .social-media-footer,
     .subscribe {
-        margin-left: 0;
-    }
+    margin: 0;
+}
 
     .subscribe-title {
         text-align: left;
@@ -1001,11 +1008,6 @@ font-style: normal;
         padding: 24px 0;
     }
 
-    .nav-list {
-        display: flex;
-        gap: 40px;
-    }
-
     .address-list {
         display: flex;
         gap: 40px;
@@ -1025,6 +1027,11 @@ font-style: normal;
 
     .card-features-icon {
         display: flex;
+    }
+
+    .features-card-title {
+        font-size: 20px;
+        font-weight: 500;
     }
 
     .card-features {
@@ -1064,7 +1071,7 @@ font-style: normal;
     .footer-content {
         align-items: baseline;
         gap: 0;
-        padding-left: 0px;
+        padding-left: 0;
     }
 
     .logo-text-footer {
