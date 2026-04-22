@@ -157,7 +157,8 @@ img, svg {
     padding: 16px 0;
 }
 
-.nav-list {
+.nav-list,
+.address {
     display: none;
 }
 
@@ -196,10 +197,6 @@ img, svg {
 .link-address:hover,
 .link-address:focus {
     color: #404BBF
-}
-
-.address-list {
-    display: none;
 }
 
 .link-address {
@@ -902,8 +899,13 @@ img, svg {
         gap: 120px;
     }
 
-    .address-list, .nav-list {
+    .address-list, 
+    .nav-list {
         display: flex;
+    }
+
+    .address {
+        display: block;
     }
 
     .nav-list {
