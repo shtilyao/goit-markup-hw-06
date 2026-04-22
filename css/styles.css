@@ -894,7 +894,7 @@ font-style: normal;
     .hero-title {
         max-width: 496px;
         margin: 0 auto 36px;
-        font-size: 65px;
+        font-size: 56px;
     }
 
     .card-set-features {
@@ -917,7 +917,7 @@ font-style: normal;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 64px 24px;
-        justify-content: center;
+        /* justify-content: center; */
     }
 
     .card-set-portfolio {
@@ -934,8 +934,11 @@ font-style: normal;
     .footer-content {
         flex-direction: row;
         flex-wrap: wrap;
-        padding-left: 92px;
         gap: 72px 24px;
+    }
+
+    .logo-footer {
+        justify-content: left;
     }
 
     .social-footer-text {
@@ -966,10 +969,21 @@ font-style: normal;
     .link-address {
         padding: 6px 0;
         font-size: 12px;
+        letter-spacing: 0.04em;
+        line-height: 1.14;
     }
 
     .address-list {
         flex-direction: column;
+    }
+
+    .team .container {
+        max-width: 584px;
+    }
+
+    .footer .container {
+        max-width: 768px;
+        padding: 0 108px;
     }
 }
 
@@ -1051,10 +1065,6 @@ font-style: normal;
         align-items: baseline;
         gap: 0;
         padding-left: 0px;
-    }
-
-    .logo-footer {
-        justify-content: left;
     }
 
     .logo-text-footer {
